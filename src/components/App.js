@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
+import { Home, About, Projects, Header } from "./";
 
 const App = () => {
     return (
         <div>
-            <h1>Hello World</h1>
+            <Home />
+            <About />
+            <Projects />
         </div>
     )
 }
