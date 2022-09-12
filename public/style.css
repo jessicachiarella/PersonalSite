@@ -22,7 +22,13 @@
   h1{
     font-size: 75px;
     margin-top: 15%;
+    font-family: 'Josefin Sans', sans-serif;
 
+}
+
+h2{
+    font-family: 'Crimson Text', serif;
+    color: #435358;
 }
 
 .hero{
@@ -34,7 +40,7 @@
 
 
 .arrowDown {
-    border: solid black;
+    border: solid #435358;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
@@ -100,6 +106,7 @@
   h3{
     font-size: 50px;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
 .project{
@@ -117,4 +124,10 @@
 .github{
     display: flex;
     justify-content: center;
+
+}
+
+p{
+    font-size: 20px;
+    font-family:'Crimson Text', serif;
 }
