@@ -1,0 +1,133 @@
+
+
+*{
+    box-sizing: border-box;
+   
+}
+
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .topLink{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    
+  }
+  
+  h1{
+    font-size: 75px;
+    margin-top: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+h2{
+    font-family: 'Crimson Text', serif;
+    color: #435358;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+
+.arrowDown {
+    border: solid #435358;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-top: 5%;
+  }
+
+  .aboutContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 15%;
+  }
+
+  .projectContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+  }
+
+  .container {
+  position: relative;
+  width: 35em;
+  height: 20em;
+  }
+
+  .thumbnail {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #435358;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  h3{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+.project{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectLink{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.github{
+    display: flex;
+    justify-content: center;
+
+}
+
+p{
+    font-size: 20px;
+    font-family:'Crimson Text', serif;
+}
