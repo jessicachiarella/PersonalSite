@@ -142,6 +142,7 @@ p{
     }
     .projectContainer{
         display: inline-block;
+        max-width: 100%;
         margin-bottom: 20%;
       }
       .container {
