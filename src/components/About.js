@@ -10,7 +10,7 @@ const About = () => {
 
 <p data-aos="fade-up" data-aos-anchor-placement="top-center">When I enrolled in bootcamp, I was elated to discover that many of the skills I draw upon in novel writing — the capacity to organize large systems into smaller components, employ both creativity and logic in problem solving, be exacting when it comes to detail, and always have an eye toward the consumer experience — transferred beautifully to web development. </p>
 
-<p>Not only have I developed the aptitude for object-oriented programming reflected in my resume and sample projects, but now I find the same creative satisfaction in routing API calls as I do in executing plot twists. If I'm not writing code, I'm probably out walking my dog!</p>
+<p data-aos="fade-up" data-aos-anchor-placement="top-center">Not only have I developed the aptitude for object-oriented programming reflected in my resume and sample projects, but now I find the same creative satisfaction in routing API calls as I do in executing plot twists. If I'm not writing code, I'm probably out walking my dog!</p>
             <div className="techStack" data-aos="fade-up" data-aos-anchor-placement="top-center">
             <h4>Tech Stack:</h4>
             <p>JavaScript, React PostgreSQL, Node, Express, HTML, CSS, Github, Heroku, Netlify, Webpack, Axios</p>
