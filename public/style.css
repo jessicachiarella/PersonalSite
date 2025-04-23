@@ -57,7 +57,7 @@ h2{
     padding: 15%;
   }
 
-  .projectContainer{
+  .publicationContainer{
     display: flex;
     justify-content: center;
     margin-bottom: 20%;
@@ -65,8 +65,8 @@ h2{
 
   .container {
   position: relative;
-  width: 35em;
-  height: 20em;
+  width: 20em;
+  height: 30em;
   }
 
   .thumbnail {
